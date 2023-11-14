@@ -1,0 +1,27 @@
+:root{
+    --maroon: #9e0303;
+    --brightRed: #ff0000;
+}
+::placeholder{
+    color: white;
+    text-align: center;
+}
+.brightRedBg{
+    background-color: var(--brightRed);
+}
+
+.maroonBg{
+    background-color: var(--maroon);
+}
+
+.boxShadow{
+    box-shadow: 1px 1px 15px 5px var(--maroon) ;
+}
+
+.fitContent{
+    max-width: 55%;
+}
+
+.maroonTxt{
+    color: var(--maroon);
+}
